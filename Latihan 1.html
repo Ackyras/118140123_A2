@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+        .top-title {
+            background-color: rgb(12, 94, 12);
+            top: 0;
+            margin-top:0%;
+            padding-bottom: 2px;
+            margin-bottom: 3px;
+            text-align: center;
+            color: white;
+        }
+        .top-nav {
+            background-color: rgb(12, 94, 12);
+            padding: 5px;
+        }    
+        .nav {
+            display: inline;
+            overflow: sticky;
+        }
+        .nav-link {
+            margin-left: 20px;
+            color: white;
+        }
+        .text-bar {
+            background-color: rgb(66, 169, 71);
+            color: white;
+            margin-top: 2px;
+            padding: 5px;
+        }
+        .home {
+            background-color: rgb(23, 97, 29);
+            padding: 5px 5px;
+            color:rgb(217, 248, 14);
+        }
+        .cnt {
+            background-color: rgb(23, 97, 29);
+            padding: 5px 5px;
+            color:rgb(217, 248, 14);
+            display: flex;
+            
+        }
+        .web {
+             width: 50px;
+             height: 50px;
+             margin-right: 25px;
+             margin-top: 3px;
+        }
+        footer {
+            text-align: center;
+            background-color: rgb(28, 87, 47);
+            color: white;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 98%;
+            margin-right: 5px;
+        }
+        </style>
+        <title>Latihan</title>
+    </head>
+    <body>
+        <div class="top-title">
+            <h1>Praktikum Pemrograman Web Latihan 1</h1>
+        </div>
+        <div class="top-nav">
+            <nav class="nav">
+                <a class="nav-link" href="#Home">Home</a>
+                <a class="nav-link" href="#Profile">News</a>
+                <a class="nav-link" href="#About">Contact Us</a>
+            </nav>
+        </div>
+        <section id="#Home">
+            <div class="text-bar">Home</div>
+            <div class="home">
+                <p><i>Web Programming</i> atau Pemrograman Web merupakan istilah yang erat kaitannya dengan internet dan website. Orang banyak mengenal web dengan istilah <i>WWW</i> atau <i>World Wide Web.</i></p>
+                <p><i>World Wide Web</i> adalah halaman-halaman website yang terkoneksi satu dengan lainnya atau disebut juga dengan hyperlink yang membentuk samudera informasi yang berjalan dengan protokol HyperText Transfer Protocol (HTTP).</p>
+            </div>
+        </section>
+        <section id="#Profile">
+            <div class="text-bar">Profile</div>
+            <div class="cnt">
+                <img class="web" src="https://cdn.pixabay.com/photo/2016/11/30/17/10/web-1873373_960_720.png" alt="">
+                <p>Nama saya Muhammad Ikhbal NIM 118140123 dari Prodi Teknik Informatika 2018</p>
+            </div>
+        </section>
+        <section id="#About">
+            <div class="text-bar">About</div>
+            <div class="cnt">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <p>Muhammad Ikhbal 118140123</p>
+        </footer>
+    </body>
+</html>
