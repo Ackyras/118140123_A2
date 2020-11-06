@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            .top-title {
+                background-color: rgb(12, 94, 12);
+                top: 0;
+                margin-top:0%;
+                padding-bottom: 2px;
+                margin-bottom: 3px;
+                text-align: center;
+                color: white;
+            }
+            .form-row {
+                margin: 5px 0px 0px 25px;
+                width: 200px;
+                height: 50px;
+            }
+            .form-input {
+                width: 100$;
+
+            }
+            .input {
+                border: 2px solid #34eb61;
+                border-radius: 1px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .submit {
+                padding: 5px 10px;
+                font-size: 20px;
+                font-weight: 900;
+                color: #fff;
+                background-color: #34eb61;
+                border: 2px solid #34eb61;
+                cursor: pointer;
+                width: max-content;
+                transition: 0.25s ease;
+            }
+            .submit:hover {
+                color: #34eb61;
+                background-color: transparent;
+            }
+            .form-submit {
+                margin: 70px 0px 0px 25px;
+            }
+            footer {
+                text-align: center;
+                background-color: rgb(28, 87, 47);
+                color: white;
+                padding: 5px;
+                position: fixed;
+                bottom: 0;
+                width: 98%;
+                margin-right: 5px;
+            }
+        </style>
+        <title>Latihan</title>
+    </head>
+    <body>
+        <div class="top-title">
+            <h1>Praktikum Pemrograman Web Latihan 2</h1>
+        </div>
+        <form method="POST" action="">
+            <div class="form-row">
+                <label class="lbl-row">Nama:</label>
+                <br>
+                <div class="form-input">
+                    <input class="input" type="text" name="nama">
+                </div>
+                <br>
+            </div>
+            <div class="form-row">
+                <label class="lbl-row">Gender:</label>
+                <br>
+                <div class="form-input" style="margin-top: 7px;">
+                    <input type="radio" id="men" name="gender" value="Men">
+                    <label for="men">Men</label>
+                    <input type="radio" id="women" name="gender" value="Women">
+                    <label for="women">Women</label>
+                </div>
+                <br>
+            </div>
+            <div class="form-row">
+                <label class="lbl-row">Alamat:</label>
+                <br>
+                <div class="form-input">
+                    <input class="input" type="text" name="alamat">
+                </div>
+                <br>
+            </div>
+            <div class="form-row">
+                <label class="lbl-row">Country</label>
+                <br>
+                <div class="form-input">
+                    <select class="input" name="jenis">
+                        <option value="ind">Indonesia</option>
+                        <option value="us">Amerika</option>
+                    </select>
+                </div>
+                <br>
+            </div>
+            <div class="form-row">
+                <label class="lbl-row">Foto:</label>
+                <br>
+                <div class="form-input">
+                    <input class="input" type="file" name="foto">
+                </div>
+                <br>
+            </div>
+            <div class="form-row">
+                <label class="lbl-row">Comment:</label>
+                <br>
+                <div class="form-input">
+                    <textarea class="input" name="comments" id="" cols="30" rows="5"></textarea>
+                </div>
+                <br>
+            </div>
+            <div class="form-submit">
+                <button class="submit" type="submit" name="kirim" value="Simpan">Simpan</button>
+            </div>
+        </form>
+        <footer>
+            <p>Muhammad Ikhbal 118140123</p>
+        </footer>
+    </body>
+</html>
