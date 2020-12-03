@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>Muhammad</awal>
+        <akhir>Ikhbal</akhir>
+    </nama>
+    
+    <jeniskelamin>Laki-laki</jeniskelamin>
+
+    <alamat>
+        <kabupaten>Lampung Selatan</kabupaten>
+        <provinsi>Lampung</provinsi>
+        <negara>Indonesia</negara>
+    </alamat>
+
+    <sosialMedia>
+        <github>ikhbaaalll</github>
+        <instagram>ikhbaaalll</instagram>
+    </sosialMedia>
+</dataDiri>
