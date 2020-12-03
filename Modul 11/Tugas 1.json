@@ -1,0 +1,16 @@
+{
+    "nama": {
+        "awal": "Muhammad",
+        "akhir": "Ikhbal"
+    },
+    "jeniskelamin": "Laki-laki",
+    "alamat": {
+        "kabupaten": "Lampung Selatan",
+        "provinsi": "Lampung",
+        "negara": "Indonesia"
+    },
+    "sosialMedia": {
+        "github": "ikhbaaalll",
+        "instagram": "ikhbaaalll"
+    }
+}
